@@ -1,0 +1,83 @@
+/* background color */
+body {
+  background: rgb(40, 61, 61);
+}
+
+/* Scuba section */
+.scuba {
+  font-family: sans-serif;
+  color: rgb(224, 230, 235);
+  padding: 10px;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%; /* fill screen sideways */
+  z-index: 1;
+}
+
+.scuba h1 {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(224, 159, 60);
+  margin: 0;
+  padding: 20px;
+  width: 100%; /* Stretch across the entire width */
+  position: relative; /* Position it to the top */
+}
+
+.scuba p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  margin-top: 90px; /*  space below the heading */
+}
+
+/* Marine table */
+table.marine {
+  width: 100%;
+  border-collapse: collapse; /* borders collapse into a single line */
+  margin-top: 20px;
+}
+
+table.marine th {
+  background-color: #2e2828; /* Dark background */
+  color: white; /* White text */
+  padding: 10px; /* Spacing around text */
+  text-align: center; /* Center-align header text */
+  font-size: 16px;
+}
+
+table.marine td {
+  background-color: #94923b; /* Light grey background */
+  padding: 10px; /* Spacing inside cells */
+  text-align: center; /* Center-align text */
+  font-size: 14px;
+  width: 60%;
+  margin: 0 auto; /* Center table */
+}
+
+/* Scuba section subtitle */
+.scuba h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+/* Hiking section styling */
+.hiking {
+  font-family: sans-serif;
+  color: rgb(224, 230, 235);
+  padding: 20px;
+  margin-top: 50px; /* margin to create space between sections */
+}
+
+.hiking h2 {
+  font-size: 40px;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(224, 159, 60);
+  margin: 0;
+  padding: 20px; /* Add padding  */
+  width: 100%; /* Stretch across entirewidth */
+  position: relative; /* Position relative to the parent (hiking section) */
+}

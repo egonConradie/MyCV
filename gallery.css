@@ -1,0 +1,97 @@
+.quote {
+  font-style: italic;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: rgb(204, 146, 71); /* You can change the color to fit your theme */
+  padding: 20px;
+  background-color: rgba(
+    90,
+    128,
+    185,
+    0.1
+  ); /* Light background to highlight the quote */
+  border-radius: 10px;
+}
+
+/* Background color */
+body {
+  background: rgb(40, 61, 61);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: rgb(244, 255, 237);
+}
+
+.container {
+  display: grid; /* Grid layout */
+  gap: 10px; /* Optional gap between items */
+  padding: 20px; /* Optional padding around the grid */
+  justify-content: center; /* Center the grid */
+  align-items: center; /* Center the content inside grid cells */
+}
+
+.item {
+  position: relative; /* Position to make image adjustments easier */
+}
+
+.item img {
+  width: 100%; /* Make images take up the full width of their grid cell */
+  height: 100%; /* Ensure images fill the height of their grid cell */
+  object-fit: cover; /* Ensure the image fills the grid area without stretching */
+  border-radius: 5px; /* Optional: rounded corners for images */
+}
+
+/* Position an item */
+
+/* Position item 1 in the top-left corner */
+.item1 {
+  grid-row-start: 1; /* Row 1 */
+  grid-row-end: 2; /* Row 2 */
+  grid-column-start: 1; /* Column 1 */
+  grid-column-end: 2; /* Column 2 */
+}
+
+/* Position item 2 in the middle of the second row */
+.item2 {
+  grid-row-start: 1; /* Row 1 */
+  grid-row-end: 2; /* Row 2 */
+  grid-column-start: 2; /* Column 2 */
+  grid-column-end: 3; /* Column 3 */
+}
+
+/* Position item 3 in the bottom-right corner */
+.item3 {
+  grid-row-start: 1; /* Row 1 */
+  grid-row-end: 2; /* Row 2 */
+  grid-column-start: 3; /* Column 3 */
+  grid-column-end: 4; /* Column 4 */
+}
+
+/* Position item 4 spanning rows 1 and 2, column 2 */
+.item4 {
+  grid-row-start: 2; /* Row 2 */
+  grid-row-end: 3; /* Row 3 */
+  grid-column-start: 1; /* Column 1 */
+  grid-column-end: 2; /* Column 2 */
+}
+
+/* Position item 5 in the second row, first column */
+.item5 {
+  grid-row-start: 2; /* Row 2 */
+  grid-row-end: 3; /* Row 3 */
+  grid-column-start: 2; /* Column 2 */
+  grid-column-end: 3; /* Column 3 */
+}
+
+/* Position item 6 in the second row, third column */
+.item6 {
+  grid-row-start: 2; /* Row 2 */
+  grid-row-end: 3; /* Row 3 */
+  grid-column-start: 3; /* Column 3 */
+  grid-column-end: 4; /* Column 4 */
+}
